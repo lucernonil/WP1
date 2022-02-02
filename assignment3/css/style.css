@@ -20,7 +20,7 @@ h3 {
 p {
 	color: #000000;
 	font-family: Georgia, sans-serif;
-    font-size: 15px;
+   	font-size: 15px;
 }
 
 .header {
@@ -32,25 +32,25 @@ p {
 }
 
 a:link {
-  color: whitesmoke;
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:visited {
-  color: whitesmoke
-  background-color: transparent;
-  text-decoration: none;
-}
-
-a:hover {
   color: hotpink;
   background-color: transparent;
   text-decoration: none;
 }
 
-a:active {
+a:visited {
+  color: hotpink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
   color: whitesmoke;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: hotpink;
   background-color: transparent;
   text-decoration: none;
 }
@@ -87,8 +87,8 @@ button.accordion {
     border: 1px solid pink;;
     outline: none;
     transition: 0.4s;
-	  font-family: chocolate;
-	  font-size: 15px;
+    font-family: chocolate;
+    font-size: 15px;
 }
 button.accordion.active, button.accordion:hover {
     background-color: #solid pink;
