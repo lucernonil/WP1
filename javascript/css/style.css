@@ -1,0 +1,26 @@
+/*css*/
+h1 {
+	color: gray;
+	font-family: Georgia, Geneva, sans-serif;
+	font-size: 30px;
+	
+}
+h2 {
+	color: #14141f;
+	font-family: Georgia, sans-serif;
+	font-size: 20px;
+	
+}
+h3 {
+	color: #000000;
+	font-family: Georgia, sans-serif;
+	font-size: 20px;
+	
+}
+p {
+	color: #000000;
+	font-family: Georgia, sans-serif;
+    font-size: 15px;
+}
+
+
