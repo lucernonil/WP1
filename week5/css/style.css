@@ -1,0 +1,103 @@
+body {
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 2%;
+  }
+
+  nav {
+width: 100%;
+overflow: auto;
+
+  }
+
+button {
+    border: none;
+    color: white;
+    background-color: #002552;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  
+   /* heading */
+  h1 {
+    background-color: #f5b20e;
+    font-size: larger;
+    color: #002552;
+    text-align: center;
+  }
+
+  h2 {
+    background-color: none;
+    font-size: large;
+    padding-left: 2%;
+    color: #002552;
+    text-align: left;
+  }
+
+   /* paragraph */
+  p {
+    margin: 0 0 0 0px;
+    padding-left: 2%;
+    padding-right: 7%;
+    color: #002552;
+    font-family: verdana;
+    font-size: small;
+    text-align: justify;
+  }
+  
+  /* unordered list style */
+  ul {
+    list-style-type: none;
+    margin: 0 0 0 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #002552;
+  }
+
+  /* nav bar float*/
+  li {
+    float: left;
+  }
+  
+  logo {
+    position: absolute;
+    margin-top: 15px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+  }
+
+  /* nav bar block*/
+  li a {
+    width: 100px;
+    font-family: verdana;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 20px 15px;
+    text-decoration: none;
+  }
+  
+  /* nav bar hover link color change*/
+  li a:hover {
+    background-color: #f5b20e;
+  }
+
+  input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  
+  a {
+    background-color: #002552;
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+  }
