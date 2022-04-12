@@ -10,13 +10,14 @@
 
     <body>
     
- 
+ /** Drop Zone Code **/
 <div id="dropZone">
   <div
     id="dropBox1"
     ondrop="drop(event)"
     ondragover="allowDrop(event)"
   >
+ /** Mercury Space **/
     <p>Mercury</p>
   </div>
   <div
@@ -24,6 +25,7 @@
     ondrop="drop(event)"
     ondragover="allowDrop(event)"
   >
+   /** Venus Space **/    
     <p>Venus</p>
   </div>
   <div
@@ -31,6 +33,7 @@
     ondrop="drop(event)"
     ondragover="allowDrop(event)"
   >
+   /** Earth Space **/   
     <p>Earth</p>
   </div>
   <div
@@ -38,14 +41,19 @@
     ondrop="drop(event)"
     ondragover="allowDrop(event)"
   >
+      
+    /** Mars Space **/   
     <p>Mars</p>
   </div>
 </div>
+ 
+   /** Planet Drag Zone Code **/ 
 <div
   id="planets"
   ondrop="drop(event)"
   ondragover="allowDrop(event)"
 >
+   /** Mercury Image **/ 
   <img
     id="mercury"
     src="images/mercury.png"
@@ -53,6 +61,8 @@
     ondragstart="drag(event)"
     width="80"
   />
+    
+ /** Venus Image **/ 
 <img
     id="venus"
     src="images/venus.png"
@@ -60,6 +70,8 @@
     ondragstart="drag(event)"
     width="150"
   />
+    
+ /** Earth Image **/ 
 <img
     id="earth"
     src="images/earth.png"
@@ -67,6 +79,8 @@
     ondragstart="drag(event)"
     width="120"
   />
+    
+ /** Mars Image **/ 
 <img
     id="mars"
     src="images/mars.png"
@@ -78,6 +92,7 @@
 
 </body>
 
+     /** Drop Drag Functions  **/ 
 <script>
 
 function allowDrop(event) {
