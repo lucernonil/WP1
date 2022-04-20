@@ -113,7 +113,108 @@
   />
 </div>
 
+<div id="container">
+  <div id="content">
+    <div id="about">
+      <h1>
+        <div style='float:center; margin-bottom:20px;'>
+        Outer Planets
+        </div>
+        
+        </div> 
+      </h1>
+      
+      <h2 style='clear:both' class="subhead">
+        The outer planets are the four planets which orbit furthest from the sun in our solar system. 
+        <br>Drag and drop the outer planets in their proper order from the meteor belt. 
+        <br>The nearest to the meteor belt is 1, followed by 2, 3 and 4. 
 
+      </h2>
+   
+  </div>
+</div>
+<br>
+<br>
+<!-- // Drop Zone Code **/     -->
+<div id="dropZone">
+<div
+id="dropBox1"
+ondrop="drop(event)"
+ondragover="if (globalId  == 'jupiter') { allowDrop(event); } "
+>
+<!-- // Jupiter Space **/     -->
+<p>1</p>
+</div>
+<div
+id="dropBox2"
+ondrop="drop(event)"
+ondragover="if (globalId  == 'saturn') { allowDrop(event); } "
+
+>
+<!-- // Saturn Space **/     -->
+<p>2</p>
+</div>
+<div
+id="dropBox3"
+ondrop="drop(event)"
+ondragover="if (globalId  == 'uranus') { allowDrop(event); } "
+>
+<!-- // Uranus Space  -->
+<p>3</p>
+</div>
+<div
+id="dropBox4"
+ondrop="drop(event)"
+ondragover="if (globalId  == 'neptune') { allowDrop(event); } "
+>
+
+<!-- // Neptune Space **/    -->
+<p>4</p>
+</div>
+</div>
+
+<!-- // Drag Zone Code **/     -->
+<div
+id="planets"
+ondrop="drop(event)"
+ondragover="allowDrop(event)"
+>
+<!-- // Jupiter Image **/     -->
+<img
+id="jupiter"
+src="images/jupiter.png"
+draggable="true"
+ondragstart="globalId = event.target.id; drag(event)"
+width="80"
+/>
+
+<!-- // Saturn Image **/     -->
+<img
+id="saturn"
+src="images/saturn.png"
+draggable="true"
+ondragstart="globalId = event.target.id; drag(event)"
+width="150"
+/>
+
+<!-- // Uranus Image **/     -->
+<img
+id="uranus"
+src="images/uranus.png"
+draggable="true"
+ondragstart="globalId = event.target.id; drag(event)"
+width="120"
+/>
+
+<!-- // Neptune Image **/     -->
+<img
+id="neptune"
+src="images/neptune.png"
+draggable="true"
+ondragstart="globalId = event.target.id; drag(event)"
+width="100"
+/>
+</div>
 
 </body>
 
